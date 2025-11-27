@@ -1,0 +1,24 @@
+[MASTER]
+# Extensiones de Python a verificar
+extension-pkg-allow-list=cv2,numpy
+
+[MESSAGES CONTROL]
+# Desactivar advertencias específicas que no son problemas reales
+disable=
+    import-error,           # cv2 y numpy están instalados en .venv
+    no-member              # cv2 tiene miembros dinámicos
+
+[FORMAT]
+# Longitud máxima de línea
+max-line-length=100
+
+# Permitir imports largos
+ignore-long-lines=^\s*(# )?<?https?://\S+>?$
+
+[BASIC]
+# Buenos nombres de variables
+good-names=i,j,k,x,y,r,m,f,_
+
+[DESIGN]
+# Máximo de argumentos para funciones
+max-args=10
