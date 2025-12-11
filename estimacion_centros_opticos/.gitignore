@@ -7,12 +7,6 @@ __pycache__/
 .idea/
 .DS_Store
 
-# Project artifacts / outputs
-resultados_run_test/
-resultados_v1/
-resultados_v2/
-versiones_anteriores_descartadas/
-
 # Personal and workspace settings
 .obsidian/
 
