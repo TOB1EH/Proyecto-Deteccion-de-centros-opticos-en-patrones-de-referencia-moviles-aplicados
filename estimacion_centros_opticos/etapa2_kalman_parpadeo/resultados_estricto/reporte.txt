@@ -1,0 +1,19 @@
+======================================================================
+REPORTE - DETECTOR ESTRICTO v3.0
+======================================================================
+
+Video: ../patron_leds/patron_leds.mp4
+Fecha: 2025-12-11 16:54:41.888006
+
+Frames procesados: 30
+Patrones válidos: 23 (76.7%)
+
+GEOMETRÍA:
+  Colinealidad media: 0.58px
+  Colinealidad máxima: 1.62px
+  Ratio espaciamiento: 1.071 ± 0.015
+
+JITTER (variación frame-a-frame):
+  LED1: media=27.94px, máx=240.64px
+  LED2: media=20.26px, máx=158.95px
+  LED3: media=16.51px, máx=100.63px
