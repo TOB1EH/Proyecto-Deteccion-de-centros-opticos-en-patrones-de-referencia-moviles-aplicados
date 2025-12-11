@@ -1,0 +1,80 @@
+================================================================================
+INFORME FINAL DE DETECCIÓN DE CENTROS ÓPTICOS DE LEDs
+================================================================================
+
+Archivo de video: ../patron_leds/patron_leds.mp4
+Fecha de análisis: 2025-12-11 16:44:49
+Total de frames procesados: 50
+Frames con detección exitosa: 50
+Tasa de éxito global: 100.00%
+
+================================================================================
+ANÁLISIS DE ERROR DE ESTIMACIÓN DE CENTROS
+================================================================================
+
+LED 1:
+  Frames detectados (sin outliers): 46
+
+  POSICIÓN PROMEDIO ESTIMADA:
+    X: 487.78 píxeles
+    Y: 411.46 píxeles
+
+  ERROR DE ESTIMACIÓN (Desviación Estándar):
+    Total (distancia euclidiana): 117.9897 píxeles
+    Eje X (σ_x): 193.0545 píxeles
+    Eje Y (σ_y): 39.9845 píxeles
+
+  VARIABILIDAD ESPACIAL:
+    Rango en X: 665.63 píxeles
+    Rango en Y: 160.22 píxeles
+    Límites en X: [279.98, 945.61]
+    Límites en Y: [330.35, 490.57]
+
+LED 2:
+  Frames detectados (sin outliers): 50
+
+  POSICIÓN PROMEDIO ESTIMADA:
+    X: 949.73 píxeles
+    Y: 455.84 píxeles
+
+  ERROR DE ESTIMACIÓN (Desviación Estándar):
+    Total (distancia euclidiana): 101.0115 píxeles
+    Eje X (σ_x): 166.9943 píxeles
+    Eje Y (σ_y): 137.6168 píxeles
+
+  VARIABILIDAD ESPACIAL:
+    Rango en X: 560.84 píxeles
+    Rango en Y: 426.30 píxeles
+    Límites en X: [699.44, 1260.28]
+    Límites en Y: [320.87, 747.18]
+
+LED 3:
+  Frames detectados (sin outliers): 49
+
+  POSICIÓN PROMEDIO ESTIMADA:
+    X: 1067.48 píxeles
+    Y: 503.77 píxeles
+
+  ERROR DE ESTIMACIÓN (Desviación Estándar):
+    Total (distancia euclidiana): 87.4577 píxeles
+    Eje X (σ_x): 153.5391 píxeles
+    Eje Y (σ_y): 128.2425 píxeles
+
+  VARIABILIDAD ESPACIAL:
+    Rango en X: 701.39 píxeles
+    Rango en Y: 383.52 píxeles
+    Límites en X: [571.00, 1272.39]
+    Límites en Y: [336.31, 719.83]
+
+================================================================================
+EVALUACIÓN DE CALIDAD
+================================================================================
+
+INTERPRETACIÓN DE DESVIACIÓN ESTÁNDAR (σ):
+  • σ < 0.5 píxeles: EXCELENTE - Precisión subpíxel 
+  • σ 0.5-1.0 píxeles: MUY BUENA - Muy estable
+  • σ 1.0-2.0 píxeles: BUENA - Aceptable
+  • σ > 2.0 píxeles: REQUIERE MEJORA
+
+TASA DE ÉXITO:
+  100.00% - EXCELENTE: Sistema muy robusto
